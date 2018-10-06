@@ -1,0 +1,40 @@
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\bin\Debug\FavouriteShowManager.exe.config
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\bin\Debug\FavouriteShowManager.exe
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\bin\Debug\FavouriteShowManager.pdb
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.csprojResolveAssemblyReference.cache
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.Properties.Resources.resources
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.csproj.GenerateResource.Cache
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.exe
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.pdb
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.Window.resources
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.ListShowsButtonGroup.resources
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.WindowTopBar.resources
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.ShowList.resources
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.ShowListItem.resources
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.ListShowsButton.resources
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.SearchBar.resources
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.ShowDetails.resources
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.CategoriesForm.resources
+C:\Users\David\Desktop\Software development\Final\Dev\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.StateFilter.resources
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\bin\Debug\FavouriteShowManager.exe.config
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\bin\Debug\FavouriteShowManager.exe
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\bin\Debug\FavouriteShowManager.pdb
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.csprojResolveAssemblyReference.cache
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.Properties.Resources.resources
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.CategoriesForm.resources
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.ListShowsButton.resources
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.ListShowsButtonGroup.resources
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.SearchBar.resources
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.ShowDetails.resources
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.ShowList.resources
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.ShowListItem.resources
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.StateFilter.resources
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.Window.resources
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.View.WindowTopBar.resources
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.csproj.GenerateResource.Cache
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.exe
+D:\Documents\Cours\4eme année\Software Development\FavouriteShowManager\FavouriteShowManager\obj\Debug\FavouriteShowManager.pdb

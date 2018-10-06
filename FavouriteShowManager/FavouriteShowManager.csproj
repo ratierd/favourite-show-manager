@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E592280-6378-4CF4-96D9-65E2E51F0AD5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FavouriteShowManager</RootNamespace>
+    <AssemblyName>FavouriteShowManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\ShowController.cs" />
+    <Compile Include="Model\Movie.cs" />
+    <Compile Include="Model\Serie.cs" />
+    <Compile Include="Model\Show.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\AddRemoveShowButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\AddRemoveShowButton.Designer.cs">
+      <DependentUpon>AddRemoveShowButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CategoriesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CategoriesForm.Designer.cs">
+      <DependentUpon>CategoriesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ContentPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ContentPanel.Designer.cs">
+      <DependentUpon>ContentPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DropShadow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FilterListByState.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\FilterListByState.Designer.cs">
+      <DependentUpon>FilterListByState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListShowsButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ListShowsButton.Designer.cs">
+      <DependentUpon>ListShowsButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListShowsButtonGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ListShowsButtonGroup.Designer.cs">
+      <DependentUpon>ListShowsButtonGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SearchBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\SearchBar.Designer.cs">
+      <DependentUpon>SearchBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ShowDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ShowDetails.Designer.cs">
+      <DependentUpon>ShowDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ShowList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ShowList.Designer.cs">
+      <DependentUpon>ShowList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ShowListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ShowListItem.Designer.cs">
+      <DependentUpon>ShowListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\StateFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\StateFilter.Designer.cs">
+      <DependentUpon>StateFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Window.Designer.cs">
+      <DependentUpon>Window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WindowTopBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\WindowTopBar.Designer.cs">
+      <DependentUpon>WindowTopBar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\CategoriesForm.resx">
+      <DependentUpon>CategoriesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ListShowsButton.resx">
+      <DependentUpon>ListShowsButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ListShowsButtonGroup.resx">
+      <DependentUpon>ListShowsButtonGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SearchBar.resx">
+      <DependentUpon>SearchBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ShowDetails.resx">
+      <DependentUpon>ShowDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ShowList.resx">
+      <DependentUpon>ShowList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ShowListItem.resx">
+      <DependentUpon>ShowListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\StateFilter.resx">
+      <DependentUpon>StateFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Window.resx">
+      <DependentUpon>Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WindowTopBar.resx">
+      <DependentUpon>WindowTopBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_clicked.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_selected.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize_clicked.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize_selected.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_clicked.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_selected.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reduce.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reduce_clicked.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reduce_selected.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_filter_list_black_24px.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star.wmf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star-outline.wmf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
